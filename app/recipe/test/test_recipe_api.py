@@ -154,4 +154,3 @@ class PrivateRecipeAPITests(TestCase):
         self.assertEqual(ingredients.count(), 2)
         self.assertIn(ingredient1, ingredients)
         self.assertIn(ingredient2, ingredients)
-        
